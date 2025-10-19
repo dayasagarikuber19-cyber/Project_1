@@ -1,2 +1,0 @@
-# Project_1
-Client_Query_Management_system
