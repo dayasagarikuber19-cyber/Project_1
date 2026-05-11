@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import hashlib
 from db_config import get_connection
@@ -70,7 +70,7 @@ if st.session_state.get("logged_in"):
         st.switch_page("pages/1_Client.py")
     elif st.session_state.role == "Support":
         st.switch_page("pages/2_Support.py")
-=======
+
 import streamlit as st
 import hashlib
 from db_config import get_connection
@@ -142,4 +142,4 @@ if st.session_state.get("logged_in"):
         st.switch_page("pages/1_Client.py")
     elif st.session_state.role == "Support":
         st.switch_page("pages/2_Support.py")
->>>>>>> 4811b26a3e09bb229017e272c19693076682b618
+
